@@ -1,0 +1,7 @@
+{
+  "name": "Doom",
+  "author": "MontroneDSP",
+  "version": "0.1.0",
+  "entry": "main.js",
+  "api": "1"
+}

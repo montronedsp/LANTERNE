@@ -36,8 +36,12 @@ non-empty name.
 - `cynicviz/` is the included visual ROM: nebula, particles, bloom driven by
   the low end, and SMAA, all on a local copy of three.js r161. Nothing is
   fetched from a CDN.
+- `doom/` runs the shareware Doom episode as a WebAssembly engine
+  (jacobenget/doom.wasm v0.1.0, GPL-2.0). The engine and the IWAD baked
+  into it travel in the folder, nothing is fetched at runtime, and the game
+  runs without sound. Provenance and controls are in `ROMs/doom/NOTICE.md`.
 
-A third ROM is a folder. Copy one of the two shipped folders, write your own
+Another ROM is a folder. Copy one of the shipped folders, write your own
 `rom.json`, `index.html`, and entry script, and it appears on the ROM bar.
 
 ### What it does not do
@@ -50,8 +54,8 @@ tool.
 ## Quick start
 
 Windows VST3. Load the plugin. Audio in, picture out. Use the arrow buttons
-on the ROM bar to move between `Default` and `CynicViz`, right-click for
-settings, and drop new cartridges into `ROMs/`.
+on the ROM bar to move between `Default`, `CynicViz`, and `Doom`, right-click
+for settings, and drop new cartridges into `ROMs/`.
 
 ## Building
 

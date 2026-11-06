@@ -17,3 +17,6 @@
 *.dll   binary
 *.lib   binary
 *.obj   binary
+
+# Generated base64 of the Doom engine payload: one very long line.
+ROMs/doom/engine/doom.wasm.b64.js -diff linguist-generated

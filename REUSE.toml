@@ -34,3 +34,13 @@ SPDX-License-Identifier = MIT
 path = ["ROMs/cynicviz/**", "!ROMs/cynicviz/lib/**"]
 SPDX-FileCopyrightText = "2026 MontroneDSP"
 SPDX-License-Identifier = MIT
+
+[[annotations]]
+path = ["ROMs/doom/**", "!ROMs/doom/engine/**"]
+SPDX-FileCopyrightText = "2026 MontroneDSP"
+SPDX-License-Identifier = MIT
+
+[[annotations]]
+path = ["ROMs/doom/engine/**"]
+SPDX-FileCopyrightText = "jacobenget and Doom contributors"
+SPDX-License-Identifier = GPL-2.0-only

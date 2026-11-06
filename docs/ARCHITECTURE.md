@@ -124,6 +124,10 @@ Shipped cartridges:
 - `ROMs/cynicviz/` — nebula and particles on a local copy of three.js r161,
   with EffectComposer, UnrealBloomPass, and SMAA inlined into `main.js`.
   Nothing is fetched at runtime.
+- `ROMs/doom/` — the shareware Doom episode running the `doom.wasm`
+  WebAssembly module. The payload ships base64-encoded in a script file
+  because a `file://` document cannot `fetch` the raw binary. Keyboard only,
+  no audio. Provenance in `ROMs/doom/NOTICE.md`.
 
 The bridge, the ROM manifest format, and the settings object are specified
 in `docs/ROM_API.md`. Writing a cartridge is described in

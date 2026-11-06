@@ -16,11 +16,16 @@ recorded in `docs/MIGRATION.md`.
   `com.MontroneDSP.Lanterne`, manufacturer code `MnTr`, plugin code `Lntr`,
   version 0.1.0, settings file `Lanterne.settings`.
 - Licence set: `LICENSE` and `COPYING` (AGPL-3.0-or-later), `COPYRIGHT`,
-  `THIRD_PARTY_NOTICES.md`, MIT licences for the two example ROMs.
+  `THIRD_PARTY_NOTICES.md`, MIT licences for the example ROMs.
 - Documentation: `README.md`, `BUILDING.md`, `docs/ARCHITECTURE.md`,
   `docs/ROM_API.md`, `docs/ROM_AUTHORS.md`, `docs/MIGRATION.md`, and the
   project administration files at the root.
 - `CMakePresets.json` with `win-release` and `win-dev`.
+- Cartridge `ROMs/doom/`: the shareware Doom episode played inside the ROM
+  webview, running the `doom.wasm` v0.1.0 WebAssembly module
+  (jacobenget/doom.wasm, GPL-2.0). The engine payload and the embedded IWAD
+  ship in the folder, nothing is fetched at runtime, and the game runs
+  without sound or mouse input. See `ROMs/doom/NOTICE.md`.
 
 ### Changed
 

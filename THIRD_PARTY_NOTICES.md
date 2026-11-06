@@ -77,7 +77,24 @@ Open the pin and read the notice next to the sources.
   `ROMs/cynicviz/lib/SMAAPass.js`, `ROMs/cynicviz/lib/SMAAShader.js`, and the
   inlined copy inside `ROMs/cynicviz/main.js`. Their upstream notice is kept.
 
+## Doom cartridge engine (jacobenget/doom.wasm)
+
+- URL: https://github.com/jacobenget/doom.wasm
+- Version: release `v0.1.0`, asset `doom-v0.1.0.wasm`
+- SHA-256: `8edfe49a7583fd975199969302d8e9adcf8e714d0af72bf3e672f991fd810faa`
+- License: **GPL-2.0**, see `ROMs/doom/engine/LICENSE`. It contains the Doom
+  source id Software released under GPL-2.0 in 1997, and it embeds the
+  shareware IWAD (`DOOM1.WAD`, Episode 1), which id Software's shareware
+  terms allow to be redistributed. Doom content remains copyright id
+  Software / ZeniMax Media.
+- Where: `ROMs/doom/engine/doom.wasm.b64.js`, a base64 encoding of that
+  release asset (the page loads it with a script tag because a `file://`
+  document cannot `fetch`). `ROMs/doom/NOTICE.md` records how to verify the
+  payload and where the corresponding source lives.
+
 ---
 
 ROMs are separate works. See `ROMs/default/LICENSE`, `ROMs/cynicviz/LICENSE`,
-and `docs/ROM_AUTHORS.md`.
+`ROMs/doom/LICENSE`, and `docs/ROM_AUTHORS.md`. The Doom cartridge is an
+aggregate: its engine keeps its own licence and does not change the licence
+of this host or of the other ROMs.

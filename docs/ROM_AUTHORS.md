@@ -58,5 +58,7 @@ is a read-only runtime API, and a ROM that speaks it is not a derivative of
 the host. Your ROM stays your work under the licence you choose.
 
 Paid or closed cartridges are allowed later and are not part of this
-repository. The two example ROMs shipped here are MIT, see
-`ROMs/default/LICENSE` and `ROMs/cynicviz/LICENSE`.
+repository. The example ROMs shipped here are MIT, see
+`ROMs/default/LICENSE` and `ROMs/cynicviz/LICENSE`. The Doom cartridge is
+MIT for the code written here and GPL-2.0 for the engine binary it bundles;
+see `ROMs/doom/LICENSE` and `ROMs/doom/NOTICE.md`.
