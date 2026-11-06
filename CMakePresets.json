@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 22,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "win-release",
+      "displayName": "Windows Release",
+      "description": "Visual Studio 2022, x64, release configuration for the VST3",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "LANTERNE_JUCE_DIR": "${sourceDir}/.cache/JUCE"
+      }
+    },
+    {
+      "name": "win-dev",
+      "displayName": "Windows Development",
+      "description": "Visual Studio 2022, x64, development build for the VST3",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "LANTERNE_JUCE_DIR": "${sourceDir}/.cache/JUCE"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-win-release",
+      "displayName": "Build Windows Release",
+      "configurePreset": "win-release",
+      "configuration": "Release",
+      "targets": ["Lanterne_VST3"]
+    },
+    {
+      "name": "build-win-dev",
+      "displayName": "Build Windows Development",
+      "configurePreset": "win-dev",
+      "configuration": "Debug",
+      "targets": ["Lanterne_VST3"]
+    }
+  ]
+}

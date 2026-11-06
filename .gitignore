@@ -1,0 +1,30 @@
+# Build output
+build/
+cmake-build-*/
+out/
+CMakeUserPresets.json
+
+# JUCE pin (see BUILDING.md)
+.cache/
+
+# IDE
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+compile_commands.json
+
+# Compiled plugins and host state
+*.vst3
+*.dll
+*.so
+*.dylib
+*.lib
+*.obj
+*.settings
+
+# OS
+.DS_Store
+Thumbs.db

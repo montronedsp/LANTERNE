@@ -1,0 +1,7 @@
+{
+  "name": "Default",
+  "author": "Manufacturer",
+  "version": "0.1",
+  "entry": "main.js",
+  "api": "1"
+}

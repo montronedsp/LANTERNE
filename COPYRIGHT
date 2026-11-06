@@ -1,0 +1,30 @@
+Copyright (C) 2026 MontroneDSP
+
+Lanterne project-owned source is distributed under AGPL-3.0-or-later.
+See LICENSE and COPYING.
+
+JUCE 8.0.12 is used under its AGPLv3 option at commit
+501c07674e1ad693085a7e7c398f205c2677f5da.
+https://github.com/juce-framework/JUCE
+
+The VST3 SDK shipped inside that JUCE pin remains under the license
+in that pin's VST3_SDK/LICENSE.txt, which is the "MIT License",
+Copyright (c) 2025, Steinberg Media Technologies GmbH.
+
+three.js r161 (local UMD / module build and the postprocessing files
+actually shipped) is MIT. Copyright belongs to the three.js authors.
+https://github.com/mrdoob/three.js tag v0.161.0
+
+SMAA portions keep their upstream notice.
+https://github.com/iryoku/smaa
+
+SheenBidi, HarfBuzz, and the other JUCE dependencies stay under the
+notices inside the JUCE pin. Do not relicense them.
+
+ROMs are separate works. The bridge is a read-only runtime API.
+A ROM is not, by that API, a derivative of the host. Authors keep
+their copyright and choose their own license. Shipped example ROMs
+are MIT; see ROMs/default/LICENSE and ROMs/cynicviz/LICENSE.
+
+Lanterne is not a measurement instrument. Third-party names are used
+only for factual attribution.

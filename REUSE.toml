@@ -1,0 +1,36 @@
+version = 1
+
+[[annotations]]
+path = ["Source/**"]
+SPDX-FileCopyrightText = "2026 MontroneDSP"
+SPDX-License-Identifier = AGPL-3.0-or-later
+
+[[annotations]]
+path = [
+  "README.md",
+  "BUILDING.md",
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "CODE_OF_CONDUCT.md",
+  "GOVERNANCE.md",
+  "ROADMAP.md",
+  "SECURITY.md",
+  "COPYRIGHT",
+  "THIRD_PARTY_NOTICES.md",
+  "docs/*.md",
+  "packaging/*.md",
+  "scripts/build.ps1",
+  "CMakeLists.txt",
+]
+SPDX-FileCopyrightText = "2026 MontroneDSP"
+SPDX-License-Identifier = AGPL-3.0-or-later
+
+[[annotations]]
+path = ["ROMs/default/**"]
+SPDX-FileCopyrightText = "2026 MontroneDSP"
+SPDX-License-Identifier = MIT
+
+[[annotations]]
+path = ["ROMs/cynicviz/**", "!ROMs/cynicviz/lib/**"]
+SPDX-FileCopyrightText = "2026 MontroneDSP"
+SPDX-License-Identifier = MIT

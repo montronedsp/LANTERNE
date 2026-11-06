@@ -1,0 +1,7 @@
+{
+  "name": "CynicViz",
+  "author": "Cynic Games",
+  "version": "1.0",
+  "entry": "main.js",
+  "api": "1"
+}
